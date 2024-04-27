@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main # the name of your main branch
+      - master # the name of your main branch
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
